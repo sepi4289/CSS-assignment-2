@@ -14,7 +14,7 @@ header{
 
 h1 {
   text-align: left;
-  padding-left: 20px;
+  padding-left: 2%;
   float: left;
 }
 
@@ -33,52 +33,58 @@ margin-left: 10px;
 padding-right: 30px;
 }
  section {
-   padding-top: 110px;
+   float: right;
+   padding:5%;
  }
+ div {
+   float: left;
+   width: 50%;
+ }
+ article {
+
+   float: right;
+   width: 50%;
+   overflow: auto;
+   padding-left: 10%;
+   padding-right: 5%;
+   padding-top: 7%;
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+
+
 #cougar {
   clear: both;
   background: #B26219;
-  padding-top: 40px;
-  padding-bottom: 80px;
+
 }
 #lion {
 background: #FFD5AE;
-padding-top: 40px;
-padding-bottom: 80px;
 
 }
 #tiger {
   background: #FFBD82;
-  padding-top: 40px;
-  padding-bottom: 80px;
 }
+
 h2{
-    text-align: center;
+    text-align:left;
     padding-top: 80px;
 }
 section > p{
-  text-align: center;
+  text-align:center;
 }
-article { background-color: #fff;
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
 
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 20px 40px;
-
-}
 
 img {
   display: block;
-  margin:auto;
+
 }
 
 footer {
   text-align: center;
   color: #fff;
+
   padding: 40px 200px;
 }
 a { color: #379CB2; }
@@ -101,8 +107,3 @@ a:hover { color: #82E8FF; }
 
 
 /* --- links and nav --- */
-
-
-
-a { color: #379CB2; }
-a:hover { color: #82E8FF; }
